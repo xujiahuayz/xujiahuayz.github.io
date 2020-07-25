@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Much-Worse jekyll theme
 
-You can use the [editor on GitHub](https://github.com/xujiahuayz/xujiahuayz.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This theme is avaiable under [MIT License](https://opensource.org/licenses/MIT).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
+this theme has two useful changes:
 
-### Markdown
+- It allows you to maintain your website as a subdirectory on your university of company domain (e.g. http://university.edu/department/people/your-website). Most Jekyll blogs are
+designed to be hosted at custom domain names.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Most jekyll themes are blog-centric, or single page websites. This theme lets you create multi-page website with a blog if you want.
 
-```markdown
-Syntax highlighted code block
+Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
 
-# Header 1
-## Header 2
-### Header 3
+See it in action [here](http://people.csail.mit.edu/gchauras).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xujiahuayz/xujiahuayz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.
