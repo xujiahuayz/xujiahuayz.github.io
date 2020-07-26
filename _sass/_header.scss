@@ -69,13 +69,13 @@
     border: 1px solid $line-color;
     background: $background;
     display: none;
-    right: -10px;
+    right: 0px;
     padding: 4px 0 3px 0;
     position: absolute;
     text-align: left;
     text-transform: none;
     top: 28px;
-    min-width: 200px;
+    min-width: 300px;
     z-index:999;
 }
 
