@@ -4,11 +4,13 @@ layout: page
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="by Jaroslav Michalko; at Fitzrovia, London, 2019" width="300px" align="right" %}
+{% include image.html url="images/photo.jpg" caption="by Jaroslav Michalko | Fitzrovia, London, 2019" width="300px" align="right" %}
 
-I am the Research Project Manager for the [UCL Centre for Blockchain Technologies](http://blockchain.cs.ucl.ac.uk/). 
+Welcome!
 
-I teach Blockchain Technologies (COMP0163) at [UCL](https://www.ucl.ac.uk/) and Financial Applications of Blockchains and Distributed Ledgers (FIN-413) at [EPFL](https://www.epfl.ch/).
+I do research in blockchain economics, finance and insurance with [UCL](https://www.ucl.ac.uk/){:target="_blank"} and [EPFL](https://www.epfl.ch/){:target="_blank"}.
+
+When I'm not working, I play [Guzheng](https://en.wikipedia.org/wiki/Guzheng){:target="_blank"} and practice [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy){:target="_blank"}.
 
 ## Contact
 
