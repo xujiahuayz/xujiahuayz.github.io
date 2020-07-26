@@ -2,12 +2,12 @@
   href: "/bio/"
   
 - title: "Research"
-  subcategories:
-  - subtitle: "Peer-reviewed articles"
-    subhref: "/research#peer-reviewed-articles"
-  - subtitle: "Working papers"
-    subhref: "/research#working-papers"
-    # href: "/research/"
+  # subcategories:
+  # - subtitle: "Peer-reviewed articles"
+  #   subhref: "/research#peer-reviewed-articles"
+  # - subtitle: "Working papers"
+  #   subhref: "/research#working-papers"
+  href: "/research/"
 
 - title: "Teaching"
   href: "/teaching/"

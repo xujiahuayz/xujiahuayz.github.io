@@ -64,11 +64,23 @@ pubs:
       number:  "27(supplement):65-79"
       year:    "2018"
       url:     "https://doi.org/10.3905/joi.2018.27.supplement.065"
+
+wps:
+
+    - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
+      author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia and Jiahua Xu"
+    - title:   "REA, Triple-Entry Accounting and Blockchain: Converging Paths to Shared Ledger Systems"
+      author:  "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu"
+      url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3602207"
+    - title:   "Revisiting Transactional Statistics of High-scalability Blockchain"
+      author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
+      url:     "https://arxiv.org/abs/2003.02693"
+    - title:   "Saving Face: A Solution to the Hidden Crisis for Life Insurance Policyholders"
+      author:  "Alexander Braun, Lauren Cohen, Christopher J. Malloy, Jiahua Xu"
+      url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3179334"
 ---
 
-## Peer-reviewed articles
-
-{% assign thumbnail="left" %}
+## Peer-reviewed publications
 
 {% for item in page.pubs %}
 [**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
@@ -79,3 +91,8 @@ pubs:
 {% endfor %}
 
 ## Working papers
+
+{% for item in page.wps %}
+{% if item.url %}[**{{item.title}}**]({{item.url}}){:target="_blank"}{% else %}**{{item.title}}**{% endif %}<br />
+{{item.author}}
+{% endfor %}
