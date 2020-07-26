@@ -50,7 +50,7 @@ pubs:
           url:  "http://www.imdb.com/title/tt0133093/"
 ---
 
-## Peer-reviewed publications
+## Peer-reviewed articles
 
 {% assign thumbnail="left" %}
 

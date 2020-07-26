@@ -3,8 +3,8 @@
   
 - title: "Research"
   subcategories:
-  - subtitle: "Peer-reviewed publications"
-    subhref: "/research#peer-reviewed-publications"
+  - subtitle: "Peer-reviewed articles"
+    subhref: "/research#peer-reviewed-articles"
   - subtitle: "Working papers"
     subhref: "/research#working-papers"
     # href: "/research/"
