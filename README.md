@@ -2,4 +2,4 @@
 
 This repository contains code for my personal website: http://jiahua-xu.com/.
 
-I used [Much-Worse jekyll theme](https://github.com/gchauras/much-worse-jekyll-theme), and received tremendous support from [@danhper](https://github.com/danhper) to set up this website.
+I used [Much-Worse jekyll theme](https://github.com/gchauras/much-worse-jekyll-theme), and received tremendous support from [@danhper](https://github.com/danhper) in setting up this website.
