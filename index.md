@@ -4,7 +4,7 @@ layout: page
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="by Jaroslav Michalko | Fitzrovia, London, 2019" width="300px" align="right" %}
+{% include image.html url="images/photo.jpg" caption="by Jaroslav Michalko; at Fitzrovia, London, 2019" width="300px" align="right" %}
 
 I am the Research Project Manager for the [UCL Centre for Blockchain Technologies](http://blockchain.cs.ucl.ac.uk/). 
 

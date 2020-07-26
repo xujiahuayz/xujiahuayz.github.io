@@ -116,7 +116,7 @@
     @include media-query($mobile) {
         position: absolute;
         top: 9px;
-        right: 2px;
+        right: 20px;
         border: 1px solid $line-color;
         border-radius: 5px;
         text-align: right;
@@ -152,7 +152,7 @@
 
         .page-link {
             display: block;
-            padding: 2px 2px;
+            padding: 5px 10px;
         }
     }
 }
