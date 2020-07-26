@@ -1,6 +1,8 @@
-title: Geeky corner
-description: Much-Worse Jekyll theme for academic page and blog
+title: Jiahua Xu, Ph.D. 
+description: Jiahua is a humble unswerving academic.
 sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
+
+acknowledgment: Tremendous technical support from [Daniel Perez](https://daniel.perez.sh/)
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
