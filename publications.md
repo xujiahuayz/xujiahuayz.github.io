@@ -2,6 +2,36 @@
 layout: page
 permalink: /research/
 title: Research
+conf:
+
+    - title:   "Liquidations: DeFi on a Knife-edge"
+      author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
+      journal: "The 25th international conference on Financial Cryptography and Data Security"
+      number:  "Conditionally Accepted"
+      year:    "2021"
+      url:     "https://arxiv.org/abs/2009.13235"
+      
+    - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
+      author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
+      journal: "The ACM Internet Measurement Conference"
+      number:  "535-550"
+      year:    "2020"
+      url:     "https://dl.acm.org/doi/abs/10.1145/3419394.3423628"
+    
+    - title:   "Carbon Trading with Blockchain"
+      author:  "Andreas Richardson, Jiahua Xu"
+      journal: "The 2nd International Conference on Mathematical Research for Blockchain Economy"
+      number:  "105-124"
+      year:    "2020"
+      url:     "https://link.springer.com/chapter/10.1007/978-3-030-53356-4_7"
+    
+    - title:   "The Anatomy of a Cryptocurrency Pump and Dump Scheme"
+      author:  "Benjamin Livshits, Jiahua Xu"
+      journal: "The 28th USENIX Security Symposium"
+      number:  "1609-1625"
+      year:    "2019"
+      url:     "https://www.usenix.org/system/files/sec19-xu-jiahua_0.pdf"
+
 pubs:
 
     - title:   "Dating Death: An Empirical Comparison of Medical Underwriters in the U.S. Life Settlements Market"
@@ -18,26 +48,12 @@ pubs:
       year:    "2020"
       url:     "https://doi.org/10.3905/jfi.2020.1.084"
     
-    - title:   "Carbon Trading with Blockchain"
-      author:  "Andreas Richardson, Jiahua Xu"
-      journal: "The 2nd International Conference on Mathematical Research for Blockchain Economy"
-      number:  "Accepted"
-      year:    "2020"
-      url:     "https://www.marble-conference.org/marble2020-programme"
-    
     - title:   "Segmentally Aware: Know When to Merge and When to Purge"
       author:  "Yao Ma, Jiahua Xu"
       journal: "Journal of Organizational Change Management"
       number:  "33(1):196-214"
       year:    "2019"
       url:     "https://doi.org/10.1108/JOCM-06-2019-0201"
-    
-    - title:   "The Anatomy of a Cryptocurrency Pump and Dump Scheme"
-      author:  "Benjamin Livshits, Jiahua Xu"
-      journal: "Proceedings of the 28th USENIX Security Symposium"
-      number:  "1609-1625"
-      year:    "2019"
-      url:     "https://www.usenix.org/system/files/sec19-xu-jiahua_0.pdf"
     
     - title:   "Are Insurance Balance Sheets Carbon-Neutral? Harnessing Asset Pricing for Climate-Change Policy"
       author:  "Alexander Braun, Sebastian Utz, Jiahua Xu"
@@ -76,14 +92,21 @@ pubs:
 
 wps:
 
+    - title:   "A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs"
+      author:  "Jiahua Xu, Damien Ackerer, Alevtina Dubovitskaya"
+      url:     "https://arxiv.org/abs/2011.11325"
+    
+    - title:   "A Game-Theoretic Analysis of Cross-Ledger Atomic Swaps with Packetized Payments"
+      author:  "Damien Ackerer, Alevtina Dubovitskaya, Jiahua Xu"
+    
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
-      author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia and Jiahua Xu"
+      author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
+      url:     "http://dx.doi.org/10.2139/ssrn.3732319"
+    
     - title:   "REA, Triple-Entry Accounting and Blockchain: Converging Paths to Shared Ledger Systems"
       author:  "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu"
       url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3602207"
-    - title:   "Revisiting Transactional Statistics of High-scalability Blockchain"
-      author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
-      url:     "https://arxiv.org/abs/2003.02693"
+    
     - title:   "Saving Face: A Solution to the Hidden Crisis for Life Insurance Policyholders"
       author:  "Alexander Braun, Lauren H. Cohen, Christopher J. Malloy, Jiahua Xu"
       url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3179334"
@@ -126,7 +149,17 @@ pad:
       url:     "https://www.ivw.unisg.ch/wp-content/uploads/2018/09/Studie-Bancassurance_2018.pdf" 
 ---
 
-## Peer-reviewed Publications
+## Conference Proceedings
+
+{% for item in page.conf %}
+[**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
+{% else %}{{item.url}}{% endif %}){:target="_blank"}
+<br />
+{{item.author}} ({{item.year}})<br />
+*{{item.journal}}*, {{item.number}}
+{% endfor %}
+
+## Journal Publications
 
 {% for item in page.pubs %}
 [**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
