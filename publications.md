@@ -26,7 +26,7 @@ conf:
       url:     "https://link.springer.com/chapter/10.1007/978-3-030-53356-4_7"
     
     - title:   "The Anatomy of a Cryptocurrency Pump and Dump Scheme"
-      author:  "Benjamin Livshits, Jiahua Xu"
+      author:  "Jiahua Xu, Benjamin Livshits"
       journal: "The 28th USENIX Security Symposium"
       number:  "1609-1625"
       year:    "2019"
