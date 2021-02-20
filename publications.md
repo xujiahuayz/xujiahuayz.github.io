@@ -7,7 +7,7 @@ conf:
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
       journal: "The 25th International Conference on Financial Cryptography and Data Security"
-      number:  "Conditionally Accepted"
+      number:  "In press"
       year:    "2021"
       url:     "https://arxiv.org/abs/2009.13235"
       
