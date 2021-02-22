@@ -13,7 +13,7 @@ conf:
    
     - title:   "A Game-Theoretic Analysis of Cross-Ledger Atomic Swaps with Packetized Payments"
       author:  "Damien Ackerer, Alevtina Dubovitskaya, Jiahua Xu"
-      journal: "1st Workshop on Decentralized Finance (DeFi)"
+      journal: "The 1st Workshop on Decentralized Finance (DeFi)"
       number:  "conditionally accepted"
       year:    "2021"
       url:     ""
