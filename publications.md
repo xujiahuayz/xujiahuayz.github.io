@@ -7,9 +7,16 @@ conf:
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
       journal: "The 25th International Conference on Financial Cryptography and Data Security"
-      number:  "In press"
+      number:  "in press"
       year:    "2021"
       url:     "https://arxiv.org/abs/2009.13235"
+   
+    - title:   "A Game-Theoretic Analysis of Cross-Ledger Atomic Swaps with Packetized Payments"
+      author:  "Damien Ackerer, Alevtina Dubovitskaya, Jiahua Xu"
+      journal: "1st Workshop on Decentralized Finance (DeFi)"
+      number:  "conditionally accepted"
+      year:    "2021"
+      url:     ""
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
@@ -95,9 +102,6 @@ wps:
     - title:   "A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs"
       author:  "Jiahua Xu, Damien Ackerer, Alevtina Dubovitskaya"
       url:     "https://arxiv.org/abs/2011.11325"
-    
-    - title:   "A Game-Theoretic Analysis of Cross-Ledger Atomic Swaps with Packetized Payments"
-      author:  "Damien Ackerer, Alevtina Dubovitskaya, Jiahua Xu"
     
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
       author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
