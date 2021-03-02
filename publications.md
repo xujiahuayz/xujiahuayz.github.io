@@ -11,8 +11,8 @@ conf:
       year:    "2021"
       url:     "https://arxiv.org/abs/2009.13235"
    
-    - title:   "A Game-Theoretic Analysis of Cross-Ledger Atomic Swaps with Packetized Payments"
-      author:  "Damien Ackerer, Alevtina Dubovitskaya, Jiahua Xu"
+    - title:   "A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments"
+      author:  "Alevtina Dubovitskaya, Damien Ackerer, Jiahua Xu"
       journal: "The 1st Workshop on Decentralized Finance (DeFi)"
       number:  "conditionally accepted"
       year:    "2021"
