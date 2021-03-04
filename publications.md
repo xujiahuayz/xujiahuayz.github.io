@@ -16,7 +16,7 @@ conf:
       journal: "The 1st Workshop on Decentralized Finance (DeFi)"
       number:  "conditionally accepted"
       year:    "2021"
-      url:     ""
+      url:     "https://arxiv.org/abs/2103.02056"
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
