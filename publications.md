@@ -4,9 +4,16 @@ permalink: /research/
 title: Research
 conf:
 
+    - title:   "A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs"
+      author:  "Jiahua Xu, Damien Ackerer, Alevtina Dubovitskaya"
+      journal: "The 41st IEEE International Conference on Distributed Computing Systems (ICDCS)"
+      number:  "accepted"
+      year:    "2021"
+      url:     "https://arxiv.org/abs/2011.11325"
+      
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
-      journal: "The 25th International Conference on Financial Cryptography and Data Security"
+      journal: "The 25th International Conference on Financial Cryptography and Data Security (FC)"
       number:  "in press"
       year:    "2021"
       url:     "https://arxiv.org/abs/2009.13235"
@@ -14,20 +21,20 @@ conf:
     - title:   "A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments"
       author:  "Alevtina Dubovitskaya, Damien Ackerer, Jiahua Xu"
       journal: "The 1st Workshop on Decentralized Finance (DeFi)"
-      number:  "conditionally accepted"
+      number:  "accepted"
       year:    "2021"
       url:     "https://arxiv.org/abs/2103.02056"
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
-      journal: "The ACM Internet Measurement Conference"
+      journal: "The ACM Internet Measurement Conference (IMC)"
       number:  "535-550"
       year:    "2020"
       url:     "https://dl.acm.org/doi/abs/10.1145/3419394.3423628"
     
     - title:   "Carbon Trading with Blockchain"
       author:  "Andreas Richardson, Jiahua Xu"
-      journal: "The 2nd International Conference on Mathematical Research for Blockchain Economy"
+      journal: "The 2nd International Conference on Mathematical Research for Blockchain Economy (MARBLE)"
       number:  "105-124"
       year:    "2020"
       url:     "https://link.springer.com/chapter/10.1007/978-3-030-53356-4_7"
@@ -99,9 +106,7 @@ pubs:
 
 wps:
 
-    - title:   "A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs"
-      author:  "Jiahua Xu, Damien Ackerer, Alevtina Dubovitskaya"
-      url:     "https://arxiv.org/abs/2011.11325"
+
     
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
       author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
