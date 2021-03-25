@@ -108,6 +108,10 @@ wps:
 
 
     
+    - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
+      author:  "Jiahua Xu, Nazariy Vavryk, Krzysztof Paruch, Simon Cousaert"
+      url:     "https://arxiv.org/abs/2103.12732"    
+      
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
       author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
       url:     "http://dx.doi.org/10.2139/ssrn.3732319"
@@ -115,10 +119,8 @@ wps:
     - title:   "REA, Triple-Entry Accounting and Blockchain: Converging Paths to Shared Ledger Systems"
       author:  "Juan Ignacio Ibañez, Chris N. Bayer, Paolo Tasca, Jiahua Xu"
       url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3602207"
-    
-    - title:   "Saving Face: A Solution to the Hidden Crisis for Life Insurance Policyholders"
-      author:  "Alexander Braun, Lauren H. Cohen, Christopher J. Malloy, Jiahua Xu"
-      url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3179334"
+ 
+
 
 pad:
 
