@@ -104,8 +104,16 @@ pubs:
       year:    "2018"
       url:     "https://doi.org/10.3905/joi.2018.27.supplement.065"
 
-wps:
+chapters:
 
+    - title:   "From banks to DeFi: the evolution of the lending market"
+      author:  "Jiahua Xu, Nikhil Vadgama"
+      journal: "Enabling the Internet of Value: How Blockchain Connects Global Businesses"
+      number:  "in press"
+      year:    "2021"
+      url:     "https://arxiv.org/abs/2104.00970"
+
+wps:
 
     
     - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
@@ -173,6 +181,17 @@ pad:
 ## Journal Publications
 
 {% for item in page.pubs %}
+[**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
+{% else %}{{item.url}}{% endif %}){:target="_blank"}
+<br />
+{{item.author}} ({{item.year}})<br />
+*{{item.journal}}*, {{item.number}}
+{% endfor %}
+
+
+## Book Chapters
+
+{% for item in page.chapters %}
 [**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
 {% else %}{{item.url}}{% endif %}){:target="_blank"}
 <br />
