@@ -169,7 +169,7 @@ pad:
       author:  "Alexander Braun, Lauren H. Cohen, Christopher J. Malloy, Jiahua Xu"
       journal: "Harvard Business School"
       number:  "Background Note 218-127"
-      year:    "2020"
+      year:    "2018"
       url:     "https://www.hbs.edu/faculty/Pages/item.aspx?num=54582" 
     
     - title:   "Einführung in die Bancassurance (Introduction to Bancassurance)"
