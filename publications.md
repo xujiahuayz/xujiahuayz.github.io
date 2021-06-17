@@ -10,11 +10,12 @@ conf:
       number:  "accepted"
       year:    "2021"
       url:     "https://arxiv.org/abs/2011.11325"
+
       
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
       journal: "The 25th International Conference on Financial Cryptography and Data Security (FC)"
-      number:  "in press"
+      number:  "accepted"
       year:    "2021"
       url:     "https://arxiv.org/abs/2009.13235"
    
@@ -24,6 +25,13 @@ conf:
       number:  "accepted"
       year:    "2021"
       url:     "https://arxiv.org/abs/2103.02056"
+      
+    - title:   "Jack the Rippler: Arbitrage on the Decentralized Exchange of the XRP Ledger"
+      author:  "Gaspard Peduzzi, Jason James, Jiahua Xu"
+      journal: "The 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)"
+      number:  "accepted"
+      year:    "2021"
+      url:     ""
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
@@ -109,16 +117,20 @@ chapters:
     - title:   "From banks to DeFi: the evolution of the lending market"
       author:  "Jiahua Xu, Nikhil Vadgama"
       journal: "Enabling the Internet of Value: How Blockchain Connects Global Businesses"
-      number:  "in press"
+      number:  "accepted"
       year:    "2021"
       url:     "https://arxiv.org/abs/2104.00970"
 
 wps:
 
     
+    - title:   "SoK: Yield Aggregators in DeFi"
+      author:  "Simon Cousaert, Jiahua Xu, Toshiko Matsui"
+      url:     "https://arxiv.org/abs/2105.13891"   
+    
     - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
       author:  "Jiahua Xu, Nazariy Vavryk, Krzysztof Paruch, Simon Cousaert"
-      url:     "https://arxiv.org/abs/2103.12732"    
+      url:     "https://arxiv.org/abs/2103.12732"     
       
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
       author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
@@ -184,8 +196,10 @@ pad:
 [**{{item.title}}**]({% if item.internal %}{{item.url | prepend: site.baseurl}}
 {% else %}{{item.url}}{% endif %}){:target="_blank"}
 <br />
-{{item.author}} ({{item.year}})<br />
+{{item.author}} ({{item.year}})
+<br />
 *{{item.journal}}*, {{item.number}}
+<br />
 {% endfor %}
 
 
@@ -209,7 +223,7 @@ pad:
 *{{item.journal}}* {{item.number}}
 {% endfor %}
 
-## Working Papers
+## Selected Working Papers
 
 {% for item in page.wps %}
 {% if item.url %}[**{{item.title}}**]({{item.url}}){:target="_blank"}{% else %}**{{item.title}}**{% endif %}<br />
