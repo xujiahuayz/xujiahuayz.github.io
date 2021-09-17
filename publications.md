@@ -21,17 +21,17 @@ conf:
    
     - title:   "A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments"
       author:  "Alevtina Dubovitskaya, Damien Ackerer, Jiahua Xu"
-      journal: "The 1st Workshop on Decentralized Finance (DeFi)"
-      number:  "accepted"
+      journal: "The 1st Workshop on Decentralized Finance (DeFi) at the 25th International Conference on Financial Cryptography and Data Security (FC)"
+      number:  "177-187"
       year:    "2021"
-      url:     "https://arxiv.org/abs/2103.02056"
+      url:     "https://link.springer.com/chapter/10.1007/978-3-662-63958-0_16"
       
     - title:   "Jack the Rippler: Arbitrage on the Decentralized Exchange of the XRP Ledger"
       author:  "Gaspard Peduzzi, Jason James, Jiahua Xu"
       journal: "The 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)"
       number:  "accepted"
       year:    "2021"
-      url:     ""
+      url:     "https://arxiv.org/abs/2106.16158"
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
@@ -113,6 +113,13 @@ pubs:
       url:     "https://doi.org/10.3905/joi.2018.27.supplement.065"
 
 chapters:
+
+    - title:   "Token-based Insurance Solutions on Blockchain"
+      author:  "Simon Cousaert, Nikhil Vadgama, Jiahua Xu"
+      journal: "Blockchains and the Token Economy: Theory and Practice"
+      number:  "accepted"
+      year:    "2021"
+      url:     "https://arxiv.org/abs/2109.07902"
 
     - title:   "From banks to DeFi: the evolution of the lending market"
       author:  "Jiahua Xu, Nikhil Vadgama"
