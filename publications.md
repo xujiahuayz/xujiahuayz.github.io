@@ -31,8 +31,8 @@ conf:
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
       journal: "The 25th International Conference on Financial Cryptography and Data Security (FC)"
-      number:  "accepted"
-      year:    "457-476"
+      number:  "457-476"
+      year:    "2021"
       url:     "https://doi.org/10.1007/978-3-662-64331-0_24"
    
     - title:   "A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments"
