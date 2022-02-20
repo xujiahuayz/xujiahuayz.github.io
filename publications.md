@@ -4,20 +4,36 @@ permalink: /research/
 title: Research
 conf:
 
+    - title:   "SoK: Yield Aggregators in DeFi"
+      author:  "Simon Cousaert, Jiahua Xu, Toshiko Matsui"
+      journal: "The 4th IEEE International Conference on Blockchain and Cryptocurrency (ICBC)"
+      number:  "accepted"
+      year:    "2022"
+      url:     "https://arxiv.org/abs/2105.13891"
+
+      
+    - title:   "A Short Survey on Business Models of Decentralized Finance (DeFi) Protocols"
+      author:  "Teng Andrea Xu, Jiahua Xu"
+      journal: "The 2nd Workshop on Decentralized Finance (DeFi) at the 25th International Conference on Financial Cryptography and Data Security (FC)"
+      number:  "accepted"
+      year:    "2022"
+      url:     "https://arxiv.org/abs/2202.07742"
+
+      
     - title:   "A Game-Theoretic Analysis of Cross-Chain Atomic Swaps with HTLCs"
       author:  "Jiahua Xu, Damien Ackerer, Alevtina Dubovitskaya"
       journal: "The 41st IEEE International Conference on Distributed Computing Systems (ICDCS)"
-      number:  "accepted"
+      number:  "584-594"
       year:    "2021"
-      url:     "https://arxiv.org/abs/2011.11325"
+      url:     "https://doi.org/10.1109/ICDCS51616.2021.00062"
 
       
     - title:   "Liquidations: DeFi on a Knife-edge"
       author:  "Daniel Perez, Sam M. Werner, Jiahua Xu, Benjamin Livshits"
       journal: "The 25th International Conference on Financial Cryptography and Data Security (FC)"
       number:  "accepted"
-      year:    "2021"
-      url:     "https://arxiv.org/abs/2009.13235"
+      year:    "457-476"
+      url:     "https://doi.org/10.1007/978-3-662-64331-0_24"
    
     - title:   "A Game-Theoretic Analysis of Cross-Ledger Swaps with Packetized Payments"
       author:  "Alevtina Dubovitskaya, Damien Ackerer, Jiahua Xu"
@@ -25,13 +41,20 @@ conf:
       number:  "177-187"
       year:    "2021"
       url:     "https://link.springer.com/chapter/10.1007/978-3-662-63958-0_16"
+   
+    - title:   "The Energy Footprint of Blockchain Consensus Mechanisms Beyond Proof-of-Work"
+      author:  "Moritz Platt, Johannes Sedlmeir, Daniel Platt, Paolo Tasca, Jiahua Xu, Nikhil Vadgama, Juan Ignacio Ibañez"
+      journal: "The 21st International Conference on Software Quality, Reliability and Security (QRS)"
+      number:  "accepted"
+      year:    "2021"
+      url:     "https://arxiv.org/abs/2109.03667"
       
     - title:   "Jack the Rippler: Arbitrage on the Decentralized Exchange of the XRP Ledger"
       author:  "Gaspard Peduzzi, Jason James, Jiahua Xu"
       journal: "The 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)"
-      number:  "accepted"
+      number:  "1-2"
       year:    "2021"
-      url:     "https://arxiv.org/abs/2106.16158"
+      url:     "https://doi.org/10.1109/BRAINS52497.2021.9569833"
       
     - title:   "Revisiting Transactional Statistics of High-scalability Blockchains"
       author:  "Daniel Perez, Jiahua Xu, Benjamin Livshits"
@@ -118,25 +141,20 @@ chapters:
       author:  "Simon Cousaert, Nikhil Vadgama, Jiahua Xu"
       journal: "Blockchains and the Token Economy: Theory and Practice"
       number:  "accepted"
-      year:    "2021"
+      year:    "2022"
       url:     "https://arxiv.org/abs/2109.07902"
 
     - title:   "From banks to DeFi: the evolution of the lending market"
       author:  "Jiahua Xu, Nikhil Vadgama"
       journal: "Enabling the Internet of Value: How Blockchain Connects Global Businesses"
-      number:  "accepted"
-      year:    "2021"
-      url:     "https://arxiv.org/abs/2104.00970"
+      number:  "53-66"
+      year:    "2022"
+      url:     "https://doi.org/10.1007/978-3-030-78184-2_6"
 
 wps:
 
-    
-    - title:   "SoK: Yield Aggregators in DeFi"
-      author:  "Simon Cousaert, Jiahua Xu, Toshiko Matsui"
-      url:     "https://arxiv.org/abs/2105.13891"   
-    
     - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
-      author:  "Jiahua Xu, Nazariy Vavryk, Krzysztof Paruch, Simon Cousaert"
+      author:  "Jiahua Xu, Krzysztof Paruch, Simon Cousaert, Yebo Feng"
       url:     "https://arxiv.org/abs/2103.12732"     
       
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
