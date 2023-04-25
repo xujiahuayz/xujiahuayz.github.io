@@ -78,7 +78,13 @@ conf:
       url:     "https://www.usenix.org/system/files/sec19-xu-jiahua_0.pdf"
 
 pubs:
-
+    - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
+      author:  "Jiahua Xu, Krzysztof Paruch, Simon Cousaert, Yebo Feng"
+      journal: "ACM Computing Surveys"
+      number:  "1–50"
+      year:    "2023"
+      url:     "https://dl.acm.org/doi/10.1145/3570639"     
+      
     - title:   "Dating Death: An Empirical Comparison of Medical Underwriters in the U.S. Life Settlements Market"
       author:  "Jiahua Xu"
       journal: "North American Actuarial Journal"
@@ -153,10 +159,7 @@ chapters:
 
 wps:
 
-    - title:   "SoK: Decentralized Exchanges (DEX) with Automated Market Maker (AMM) protocols"
-      author:  "Jiahua Xu, Krzysztof Paruch, Simon Cousaert, Yebo Feng"
-      url:     "https://arxiv.org/abs/2103.12732"     
-      
+
     - title:   "Learning (Not) to Trade: Lindy's Law in Retail Traders"
       author:  "Teodor Godina, Serge Kassibrakis, Semyon Malamud, Alberto Teguia, Jiahua Xu"
       url:     "http://dx.doi.org/10.2139/ssrn.3732319"
