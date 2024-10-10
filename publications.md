@@ -208,6 +208,8 @@ pad:
       url:     "https://www.ivw.unisg.ch/wp-content/uploads/2018/09/Studie-Bancassurance_2018.pdf" 
 ---
 
+> I stopped updating -- please check my Google Scholar Profile https://scholar.google.co.uk/citations?user=20GXpooAAAAJ
+
 ## Conference Proceedings
 
 {% for item in page.conf %}
